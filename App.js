@@ -17,7 +17,6 @@ Notifications.setNotificationHandler({
 });
 
 const getAllKeys = async () => {
-  await AsyncStorage.clear()
   let keys = [];
   try {
     keys = await AsyncStorage.getAllKeys();
