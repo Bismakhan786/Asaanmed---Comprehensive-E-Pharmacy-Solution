@@ -260,15 +260,7 @@ const Checkout = (props) => {
               Your order has been placed successfully...
             </Text>
             <View style={styles.bottomButtons}>
-              <TouchableOpacity
-                style={styles.button}
-                onPress={() => {
-                  navigation.navigate("TrackOrder");
-                  setModalVisible(false);
-                }}
-              >
-                <Text style={styles.buttonTxt}>Track</Text>
-              </TouchableOpacity>
+              
               <TouchableOpacity
                 style={styles.button}
                 onPress={() => {
@@ -380,7 +372,7 @@ const styles = StyleSheet.create({
   },
   bottomButtons: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "flex-end",
     marginTop: 30,
   },
   button: {

@@ -16,9 +16,7 @@ const CongratulationsModal = (props) => {
           Your order has been placed successfully...
         </Text>
         <View style={styles.bottomButtons}>
-          <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonTxt}>Track</Text>
-          </TouchableOpacity>
+          
           <TouchableOpacity
             style={styles.button}
             onPress={() => {
